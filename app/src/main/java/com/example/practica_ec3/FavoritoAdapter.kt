@@ -39,7 +39,7 @@ class FavoritoAdapter(private var favoritos: List<Perro>, private val listener: 
         private val lifeSpanTextView: TextView = itemView.findViewById(R.id.lifeSpanTextView)
         private val temperamentTextView: TextView = itemView.findViewById(R.id.temperamentTextView)
         private val originTextView: TextView = itemView.findViewById(R.id.originTextView)
-        private val btnEliminarFavorito: Button = itemView.findViewById(R.id.btn_eliminar_favoritos) // Asegúrate de que el ID coincida
+        private val btnEliminarFavorito: Button = itemView.findViewById(R.id.btn_eliminar_favoritos)
 
         init {
             btnEliminarFavorito.setOnClickListener {

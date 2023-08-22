@@ -31,7 +31,7 @@ class PerroAdapter(private var perros: List<Perro>, private val homeFragment: Ho
 
             val fragmentManager = homeFragment.parentFragmentManager
             fragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, detalleFragment) // Reemplaza R.id.fragment_container con el ID del contenedor donde deseas mostrar el detalle
+                .replace(R.id.fragment_container, detalleFragment)
                 .addToBackStack(null)
                 .commit()
         }

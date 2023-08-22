@@ -39,12 +39,12 @@ class RegistrarseActivity : AppCompatActivity() {
                     if (task.isSuccessful) {
                         // Registro exitoso
                         val user = auth.currentUser
-                        // Puedes mostrar un mensaje de éxito o hacer cualquier acción adicional
+                        //  mostrar un mensaje de éxito
                         Toast.makeText(this, "Registro exitoso", Toast.LENGTH_SHORT).show()
                         // Redirigir a LoginActivity
                         val loginIntent = Intent(this, LoginActivity::class.java)
                         startActivity(loginIntent)
-                        finish() // Opcional: Puedes finalizar esta actividad de registro si no deseas volver a ella
+                        finish() //  finalizar esta actividad de registro
                     } else {
                         // El registro falló
                         val errorMessage = task.exception?.message ?: "Error al registrarte"
