@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_favorito"
+        android:title="Favoritos" />
+
+    <item
+        android:id="@+id/action_firebase"
+        android:icon="@drawable/ic_bd"
+        android:title="Firebase" />
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/ic_infor"
+        android:title="Info" />
+</menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "941478455622",
+    "project_id": "berrios-698ef",
+    "storage_bucket": "berrios-698ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941478455622:android:d835671f865f7059eb5d47",
+        "android_client_info": {
+          "package_name": "com.example.practica_ec3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941478455622-1dllbbk708cr9ec0873q1l0odjcbrbq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.practica_ec3",
+            "certificate_hash": "2cfa332017a16ca9d86e43c8334a8ff868fbcde4"
+          }
+        },
+        {
+          "client_id": "941478455622-uk369mnvhl73ga4jpgeatia6cs7cjq6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuyY_aAQvM-J_mkyCe0eeXHnxC_q3REFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941478455622-779dglbejcv4888b4plc7uqaeck9hpk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

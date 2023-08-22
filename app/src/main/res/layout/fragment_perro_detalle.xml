@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".fragments.PerroDetalleFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:id="@+id/fragment_perro_detalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_splach2"
+            android:padding="16dp">
+
+            <!-- Resto de tus elementos TextView -->
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Nombre:"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="..."
+                />
+            <TextView
+                android:id="@+id/razatxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Raza:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/breedGroupTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/vidatxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Esperanza de vidad:"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/lifeSpanTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/temperamentotxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Temeperamento:"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/temperamentTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/origentxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Origen:"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/originTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/btn_agregarFavoritos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agregar Favoritos"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:layout_margin="15dp"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
